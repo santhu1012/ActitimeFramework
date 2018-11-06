@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Scenarios">
+  <test name="automation scenarios">
+     <classes>
+       <class name="com.sgsoftware.users.Users">
+         <methods>
+            <include name="createUser" ></include>
+         </methods>
+       </class>
+       
+       <class name="com.sgsoftware.products.Products">
+          <methods>
+            <include name="modifyProduct" ></include>
+         </methods>
+       
+       </class>
+     </classes>
+  </test>
+</suite>
